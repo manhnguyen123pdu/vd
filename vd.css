@@ -161,6 +161,88 @@ body {
     border: 1px solid rgb(170, 170, 170)
 }
 
+.flowus {
+    margin: 20px;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__item {
+    width: 48%;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    color: white;
+    padding: 5px 0;
+}
+
+.social__item--left {
+    flex: 3;
+    text-align: center;
+}
+
+.social__item--left i {
+    font-size: 25px;
+}
+
+.social__item--right {
+    flex: 7;
+}
+
+.social__item--right p {
+    padding: 3px;
+    font-size: 14px;
+}
+
+.flowus h5 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.social_face {
+    background-color: #000000;
+}
+
+.social .social_face:hover {
+    background-color: #ec2020!important;
+}
+
+.social_tw {
+    background-color: #55c5eb;
+}
+
+.social .social_tw:hover {
+    background-color: #14B9EE;
+    box-shadow: 1px 2px 10px 5px #14B9EE;
+    transform: translate(5px);
+}
+
+.social_yt {
+    background-color: #f55056;
+}
+
+.social .social_yt:hover {
+    background-color: #FC161E;
+    box-shadow: 1px 2px 10px 5px #FC161E;
+    transform: translate(5px);
+}
+
+.social_tele {
+    background-color: #61a7f1;
+}
+
+.social .social_tele:hover {
+    background-color: #3885D9;
+    box-shadow: 1px 2px 10px 5px #3885D9;
+    transform: translate(5px);
+}
+
 .search__overlay input:focus {
     outline: 0;
     border: 1px solid rgb(170, 170, 170)
