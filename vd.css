@@ -1,0 +1,133 @@
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 288px 288px;
+    grid-template-areas:
+        ' h1 h2 h3'
+        ' h1 h4 h3';
+}
+
+.itro--position {
+    overflow: hidden;
+}
+
+.itro__left {
+    grid-area: h1;
+    position: relative;
+}
+
+.itro__left .bg1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(http://mauweb.monamedia.net/rolex/wp-content/uploads/2018/12/banner-4.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .5s;
+
+}
+
+.itro--position:hover .bg {
+    transform: scale(1.2);
+}
+
+.vd {
+    position: absolute;
+}
+
+.intro--bg {
+    background-size: cover;
+    transition: 1s;
+}
+
+
+.itro__center1 .bg2 {
+    background-image: url(http://mauweb.monamedia.net/rolex/wp-content/uploads/2018/12/banner-3.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: .5s;
+}
+
+.itro__center2 .bg3 {
+    background-image: url(http://mauweb.monamedia.net/rolex/wp-content/uploads/2018/12/banner-2.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: .5s;
+
+}
+
+.itro__right {
+    grid-area: h3;
+}
+
+.itro__right .bg4 {
+    background-image: url(http://mauweb.monamedia.net/rolex/wp-content/uploads/2018/12/banner-1.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: .5s;
+}
+
+.intro__text {
+    color: white;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.intro__text h3 {
+    font-size: 30px;
+}
+
+.intro__text p {
+    padding: 10PX 0;
+}
+
+.intro__text a,
+.btn3 {
+    display: inline-block;
+    border: 2px solid #cbba9c;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    transition: .5s;
+    padding: 5px;
+    background-color: #cbba9c34;
+}
+
+.intro__text a:hover,
+.btn3:hover {
+    border: 2px solid #cbba9c00;
+}
+
+.intro__text a span,
+.btn3 span {
+    border: 2px solid #ffffff00;
+    padding: 9px 15px;
+}
+
+.intro__text a:hover span,
+.btn3:hover span {
+    border: 2px solid #cbba9c;
+    padding: 9px 15px;
+}
+
+.itro--position {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.itro--position2 {
+    align-items: center;
+}
+
+.intro__text2 {
+    padding: 0;
+}
