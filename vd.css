@@ -1,20 +1,3 @@
-/* global */
-html,
-body {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    font-family: 'Mulish', sans-serif;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.section {
-    padding: 60px 0;
-}
 
 .flowus {
     margin: 20px;
@@ -61,7 +44,7 @@ body {
 }
 
 .social_face {
-    background-color: #1201ff;
+    background-color: #d9ff01;
 }
 
 .social .social_face:hover {
